@@ -9,7 +9,7 @@ local exports = {}
 
 -- We try to load node dependencies
 -- ROBLOX deviation START: upstream a check is made if we're running in the browser or not to load these
-local chalk = require(Packages.Chalk)
+local chalk = require(Packages.ChalkLua)
 local fs = require(script.Parent.jsHelpers.fs)
 local codeFrameColumns = require(script.Parent.jsHelpers["babel-code-frame"]).codeFrameColumns
 -- ROBLOX deviation END

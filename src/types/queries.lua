@@ -6,7 +6,7 @@ type Array<T> = LuauPolyfill.Array<T>
 type Object = LuauPolyfill.Object
 type Promise<T> = LuauPolyfill.Promise<T>
 
-local RegExp = require(Packages.LuauRegExp)
+local RegExp = require(Packages.RegExp)
 type RegExp = RegExp.RegExp
 
 local exports = {}

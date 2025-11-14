@@ -12,7 +12,7 @@ local LuauPolyfill = require(Packages.LuauPolyfill)
 local console = LuauPolyfill.console
 
 local Promise = require(Packages.Promise)
-local RegExp = require(Packages.LuauRegExp)
+local RegExp = require(Packages.RegExp)
 
 local getUCDModule = require(script.Parent.Parent["get-user-code-frame"])
 

@@ -11,7 +11,7 @@ local test = JestGlobals.test
 
 local HttpService = game:GetService("HttpService")
 
-local chalk = require(Packages.Chalk)
+local chalk = require(Packages.ChalkLua)
 local stripAnsi = require(script.Parent.Parent["strip-ansi"])
 local babelCodeFrame = require(script.Parent.Parent["babel-code-frame"])
 local _codeFrame = babelCodeFrame.default

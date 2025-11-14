@@ -23,7 +23,7 @@ local exports = {}
 -- local shouldHighlight = highlightModule.shouldHighlight
 -- local getChalk = highlightModule.getChalk
 local getChalk = function(...)
-	return require(Packages.Chalk)
+	return require(Packages.ChalkLua)
 end
 -- ROBLOX deviation END
 

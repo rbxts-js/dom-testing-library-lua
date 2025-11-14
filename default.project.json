@@ -1,15 +1,6 @@
 {
   "name": "DomTestingLibrary",
   "tree": {
-    "$className": "Folder",
-    "Packages": {
-      "$path": "Packages",
-      "DomTestingLibrary": {
-        "$path": "src"
-      },
-      "TestsSetup": {
-        "$path": "tests"
-      }
-    }
+    "$path": "src"
   }
 }

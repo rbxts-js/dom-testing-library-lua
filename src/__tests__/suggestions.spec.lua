@@ -4,7 +4,7 @@ local Packages = script.Parent.Parent.Parent
 local LuauPolyfill = require(Packages.LuauPolyfill)
 local console = LuauPolyfill.console
 
-local RegExp = require(Packages.LuauRegExp)
+local RegExp = require(Packages.RegExp)
 
 local JestGlobals = require(Packages.JestGlobals)
 local expect = JestGlobals.expect

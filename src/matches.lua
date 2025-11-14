@@ -7,7 +7,7 @@ local String = LuauPolyfill.String
 local instanceOf = LuauPolyfill.instanceof
 type Object = LuauPolyfill.Object
 
-local RegExp = require(Packages.LuauRegExp)
+local RegExp = require(Packages.RegExp)
 type RegExp = RegExp.RegExp
 
 local exports = {}

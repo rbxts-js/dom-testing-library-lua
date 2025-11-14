@@ -1,7 +1,7 @@
 -- ROBLOX upstream: https://github.com/testing-library/dom-testing-library/blob/v8.14.0/src/__tests__/element-queries.js
 local Packages = script.Parent.Parent.Parent
 
-local RegExp = require(Packages.LuauRegExp)
+local RegExp = require(Packages.RegExp)
 
 local JestGlobals = require(Packages.JestGlobals)
 local expect = JestGlobals.expect

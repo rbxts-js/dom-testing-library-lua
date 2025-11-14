@@ -4,7 +4,7 @@ local Packages = script.Parent.Parent.Parent
 local LuauPolyfill = require(Packages.LuauPolyfill)
 type Array<T> = LuauPolyfill.Array<T>
 
-local RegExp = require(Packages.LuauRegExp)
+local RegExp = require(Packages.RegExp)
 type RegExp = RegExp.RegExp
 
 local exports = {}

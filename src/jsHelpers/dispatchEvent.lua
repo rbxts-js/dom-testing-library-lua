@@ -1,6 +1,15 @@
 --!strict
 -- ROBLOX upstream: no upstream
-local virtualInput = game:GetService("VirtualInputManager")
+-- local virtualInput = game:GetService("VirtualInputManager")
+-- rbxts-js deviation START: virtual input manager is not available for all environments
+local success, virtualInput = pcall(function()
+	return game:GetService("VirtualInputManager")
+end)
+
+if not success then
+	return {}
+end
+-- rbxts-js deviation END
 
 local Packages = script.Parent.Parent.Parent
 

@@ -7,7 +7,7 @@ local Boolean = LuauPolyfill.Boolean
 local Object = LuauPolyfill.Object
 local console = LuauPolyfill.console
 
-local RegExp = require(Packages.LuauRegExp)
+local RegExp = require(Packages.RegExp)
 
 -- ROBLOX deviation START: helper fn
 local getNodeTestId = require(script.Parent["get-node-test-id"]).getNodeTestId

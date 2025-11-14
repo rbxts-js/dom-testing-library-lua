@@ -1,7 +1,7 @@
 -- ROBLOX upstream: https://github.com/testing-library/dom-testing-library/blob/v8.14.0/types/matches.d.ts
 local Packages = script.Parent.Parent.Parent
 
-local RegExp = require(Packages.LuauRegExp)
+local RegExp = require(Packages.RegExp)
 type RegExp = RegExp.RegExp
 
 local exports = {}
